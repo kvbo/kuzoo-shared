@@ -27,7 +27,6 @@ type Vehicle struct {
 	SideImageRight   string        `json:"side_image_right"`
 	SideImageLeft    string        `json:"side_image_left"`
 	Type             VehicleType   `json:"type"`
-	IsActive         bool          `json:"is_active"`
 	FleetID          string        `json:"fleet_id"`
 	Status           VehicleStatus `json:"status"`
 	DeliveryClassRef string        `json:"delivery_class_ref"`

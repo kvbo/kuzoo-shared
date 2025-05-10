@@ -3,7 +3,7 @@ package models
 import "time"
 
 type Entity struct {
-	ID        string     `json:"id,omitempty"`
+	ID        *string    `json:"id,omitempty"`
 	CreatedAt *time.Time `json:"created_at,omitempty"`
 	UpdatedAt *time.Time `json:"updated_at,omitempty"`
 	DeletedAt *time.Time `json:"-"`
@@ -16,3 +16,4 @@ const (
 	ADD      = "add"
 	Multiply = "multiply"
 )
+

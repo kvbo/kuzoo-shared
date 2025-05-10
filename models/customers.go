@@ -8,7 +8,7 @@ const (
 )
 
 type Customer struct {
-	IsActive bool `json:"is_active"`
+	Entity
 
 	FirstName string         `json:"first_name"`
 	LastName  string         `json:"last_name"`
